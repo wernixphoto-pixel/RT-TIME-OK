@@ -3,16 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Running Text Overlay</title>
+
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div id="datetime">
-    <div id="date"></div>
-    <div id="clock"></div>
+<div id="bottomBar">
+
+    <div id="liveBox">
+        <span class="dot"></span>
+        <span>LIVE</span>
+    </div>
+
+    <div id="tickerWrap">
+        <div id="ticker"></div>
+    </div>
+
+    <div id="clockBox">
+        <div id="clock"></div>
+        <div id="date"></div>
+    </div>
+
 </div>
 
-<script src="script.js"></script>
+<script src="running.js"></script>
 
 </body>
 </html>
